@@ -1,7 +1,7 @@
 # TriviaSong android app
 
-This android app is a port of my **TriviaSong** app for iOS available [here:]
-(https://github.com/pmheintz/TriviaSong "TriviaSong iOS repo"). The app simply
+This android app is a port of my **TriviaSong** app for iOS available
+[here](https://github.com/pmheintz/TriviaSong "TriviaSong iOS repo"). The app simply
 launches and starts playing the song from _Jeopardy_. The song will repeat
 indefinitely while the app is running. The app contains a button to pause/play
 the song and another button to restart the song from the
