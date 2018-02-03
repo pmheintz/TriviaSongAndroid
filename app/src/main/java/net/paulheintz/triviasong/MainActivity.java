@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mediaPlayer = MediaPlayer.create(this, R.raw.jeopardy_song);
+        mediaPlayer.setLooping(true);
         mediaPlayer.start();
 
         final ImageButton playPauseBtn = (ImageButton)findViewById(R.id.play_pause_btn);
