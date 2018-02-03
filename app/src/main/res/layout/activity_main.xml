@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#344FBE"
+    tools:context="net.paulheintz.triviasong.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jeopardy_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"/>
+
+    <ImageButton
+        android:id="@+id/play_pause_btn"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        tools:src="@drawable/pause"/>
+
+    <Button
+        android:id="@+id/restart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Restart"/>
+</RelativeLayout>
